@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background-image: url("./images/Group18.png");
+    background-repeat: no-repeat;
+    background-color: #0B1D26;
+    background-size: 184vh 171vh;
+    padding: 2rem 3rem;
+    color: white;
+}   
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.upper-container-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    
+}
+.upper-container-content-text{
+    padding: 6rem 0 0 17rem ;
+    /* color: #0a1942; */
+    height: 50rem;
+}
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 266vh;
+}
+.card{
+    height: 68vh;
+    width: 138vh;
+    display: flex;
+    flex-direction: row;
+}
+.count{
+    font-size: 10rem;
+    margin: -3rem 0rem -6rem -7rem;
+    opacity: 15%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.left{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-content{
+    padding: 2rem 4rem 2rem 8rem;
+}
+.right{
+    width: 40%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    height: 30vh;
+    width: 138vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right-footer{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-footer{
+    width: 20%;
+    height: 100%;
+}
+li{
+    list-style: none;
+}
+
+
